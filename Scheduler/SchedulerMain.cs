@@ -10,7 +10,7 @@ namespace Scheduler
     {
         public static void Main(string[] lolcatz)
         {
-
+            
         }
 
         //Optimize by creating a list of the jobs with the fewest amount of hours available, the workers with the most hours remaining,

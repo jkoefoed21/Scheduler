@@ -10,11 +10,14 @@ using System.Windows.Forms;
 
 namespace Scheduler
 {
-    public partial class Form1 : Form
+    public partial class WorkerControls : Form
     {
-        public Form1()
+        String userName = "";
+
+        public WorkerControls(string workerName)
         {
             InitializeComponent();
+            userName = workerName;
         }
     }
 }
